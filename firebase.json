@@ -1,15 +1,13 @@
 {
-  "hosting": {
-    "site":"myaurapp",
-    "public": "dist",
-    "rewrites": [ {
-        "source": "**",
-        "destination": "/index.html"
-    } ],
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+	"hosting": {
+		"site": "gdsc-sjec",
+		"public": "dist",
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+	}
 }

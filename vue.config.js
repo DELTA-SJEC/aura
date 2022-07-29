@@ -1,5 +1,5 @@
 module.exports = {
-  chainWebpack: config=>{
+  chainWebpack: config => {
     config.plugins.delete('prefetch')
   },
   "transpileDependencies": [
@@ -7,7 +7,7 @@ module.exports = {
   ],
   productionSourceMap: false,
   pwa: {
-    name: 'Aura Main',
+    name: 'GDSC SJEC Main',
     workboxPluginMode: 'InjectManifest',
     themeColor: '#4A90E2',
     msTileColor: '#4A90E2',
